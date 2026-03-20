@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latter Glory House</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #1a0f2e; color: white; }header {
+  background: #2a174a;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 { color: #ff66cc; }
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(rgba(26,15,46,0.8), rgba(26,15,46,0.9)), url('banner.jpg') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ff66cc;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.card {
+  background: #2a174a;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.highlight { color: #ffcc00; font-weight: bold; }
+
+footer {
+  background: #2a174a;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>Latter Glory House</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <div>
+    <h1>Join Us</h1>
+    <p>in our Meetings</p>
+  </div>
+</section><section id="services" class="section">
+  <h2>Service Schedule</h2>  <div class="card">
+    <p><span class="highlight">Tuesdays:</span> 4:30 PM</p>
+    <p><span class="highlight">Every 3rd Friday:</span> 9:00 PM</p>
+    <p><span class="highlight">Sundays:</span> 8:00 AM</p>
+  </div>  <div class="card">
+    <h3>Location</h3>
+    <p>Nexus Compound, Ayegbami Area, 1004 Orita, Ilaro.</p>
+  </div></section><section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Phone: 08060205610</p>
+  <p>Raising a people of supernatural influence evidencing the Glory of God's Kingdom</p>
+</section><footer>
+  <p>&copy; 2026 Latter Glory House</p>
+</footer></body>
+</html>
